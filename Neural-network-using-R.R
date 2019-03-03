@@ -1,7 +1,7 @@
 ## Creating index variable 
 
 # Read the Data
-data = read.csv("cereals.csv", header=T)
+data = read.csv("data/cereals.csv", header=T)
 
 # Random sampling
 samplesize = 0.60 * nrow(data)
